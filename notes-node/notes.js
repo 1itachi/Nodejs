@@ -1,4 +1,3 @@
-console.log('starting notes.js');
 const fs = require('fs');
 
 var fetchNote = () => {
@@ -24,7 +23,7 @@ var addNote = (title, body) => {
     
    
     fetchNote(notes)
-
+    debugger;
     var duplicateNote = notes.filter((note)=> note.title === title );
 
     if(duplicateNote.length === 0){
@@ -45,18 +44,28 @@ var addNote = (title, body) => {
 //listing all notes
 var getAll = () => {
     var notes = fetchNote();
-    var i = 0;
-    var len = notes.length;
-    console.log("Listing the notes: ");
-    if(notes.length !==0){
-    while(i <= len-1 ){
+    // var i = 0;
+    // var len = notes.length;
+    // console.log("Listing the notes: ");
+    // if(notes.length !==0){
+    // while(i <= len-1 ){
         
-        console.log(`Note with title ${notes[i].title} is ${notes[i].body}`);
-        i++;
-    };
-    }else{
-        console.log('No notes present');
-    }
+    //     console.log(`Note with title ${notes[i].title} is ${notes[i].body}`);
+    //     i++;
+    // };
+    // }else{
+    //     console.log('No notes present');
+    // }
+    console.log(`listing ${notes.length} notes:`)
+    notes.forEach((note)=>{
+        
+        console.log('----');
+        console.log('Note: ', note.title);
+        console.log('Body: ', note.body);
+    } )
+
+
+
 };
 
 //removing  notes with matching title

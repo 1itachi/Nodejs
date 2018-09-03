@@ -1,0 +1,17 @@
+node inspect  : used to debug in command line
+repl  : used to see the value
+
+debugger : is written in code, to make ddebugging simpler instead of using n everytime
+
+
+node --inspect-brk : to debug in chrome
+
+chrome://inspect  --> open dedicated DevTools for Node   //nodemon works with inspect brk
+
+
+Arrow functions: 
+        1. "this" keyword doesn't work when creating methods for objects in arrow functions. Returns 'undefined'.
+        2. "arguments" object(with array like properties) which is accessible in regular function 
+        cannot be accessed in arrow functions.
+
+        
