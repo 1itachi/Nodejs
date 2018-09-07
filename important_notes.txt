@@ -14,4 +14,29 @@ Arrow functions:
         2. "arguments" object(with array like properties) which is accessible in regular function 
         cannot be accessed in arrow functions.
 
-        
+library yargs  -> used to take commands and inputs through console
+library request -> used to connect to make a request to an api(connect to an api) //doesn't support promises, so need to wrap it up
+library lodash -> Lodash makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.
+library axios -> Promise based HTTP client for the browser and node.js
+library express -> to create server and make http requests      
+
+chrome developer tools -> ctrl+shift+i
+
+Template engines: view engines: handlebars, ejs etc
+   Rendering in dynamic way, reusable mark up
+
+library hbs -> Express.js view engine for handlebars.js  
+
+videos 48&49 -> about heroka( deployment in cloud )
+
+specifying --save-dev -> installing package only for developement, will not install  in heroku etc
+Mocha -> used to test the code, behaviour driven development
+
+nodemon --exec "npm test"   --> this command tells nodemon that the file necessarily may not be a node file
+
+to add custom scripts in package.json, inside scripts add:
+"test-watch": "nodemon --exec \"npm test\""
+to run:
+npm run test-watch;
+
+assertion library: lets us make assertions about the values, type etc {mjackson/except}
