@@ -40,3 +40,10 @@ to run:
 npm run test-watch;
 
 assertion library: lets us make assertions about the values, type etc {mjackson/except}
+
+mongod - runs dbserver
+
+./mongodb --dbpath ~/mongo-data   --> take the present path in dbpath and stores data in mongo-data folder
+./mongo to run the mongodb
+
+robomongo -: really helpful with UI for mongodb
