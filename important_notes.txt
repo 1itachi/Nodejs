@@ -40,3 +40,5 @@ to run:
 npm run test-watch;
 
 assertion library: lets us make assertions about the values, type etc {mjackson/except}
+
+node mongodb native: help to get started with mongodb and other stuff
