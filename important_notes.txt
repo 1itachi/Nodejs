@@ -47,3 +47,4 @@ mongod - runs dbserver
 ./mongo to run the mongodb
 
 robomongo -: really helpful with UI for mongodb
+node mongodb native: help to get started with mongodb and other stuff
