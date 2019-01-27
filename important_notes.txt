@@ -48,3 +48,7 @@ mongod - runs dbserver
 
 robomongo -: really helpful with UI for mongodb
 node mongodb native: help to get started with mongodb and other stuff
+
+to know more about mongoose: mongoosejs.com
+
+mongod.exe --dbpath /Users/Deepak/mongo-data in windows
