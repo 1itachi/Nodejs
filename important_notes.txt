@@ -52,3 +52,7 @@ node mongodb native: help to get started with mongodb and other stuff
 to know more about mongoose: mongoosejs.com
 
 mongod.exe --dbpath /Users/Deepak/mongo-data in windows
+
+start script in package.json is the script that huroku is gonna run when starting the application
+
+mention engines in package.json to specifiy which person of node to run by huroku
